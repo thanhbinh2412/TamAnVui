@@ -1,0 +1,12 @@
+services:
+  tamanvui-web:
+    build: .
+    container_name: tamanvui-web
+    expose:
+      - "8080"
+    networks:
+      - tamanvuiNetwork
+
+networks:
+  tamanvuiNetwork:
+    driver: bridge
