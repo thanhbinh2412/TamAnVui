@@ -2,8 +2,8 @@ services:
   tamanvui-web:
     build: .
     container_name: tamanvui-web
-    expose:
-      - "8080"
+    port:
+      - 8080:8080
     networks:
       - tamanvuiNetwork
 
