@@ -12,7 +12,7 @@ export default defineConfig({
     open: false,
   },
   preview: {
-    port: 8000,
+    port: 8080,
     open: false,
   },
   build: {
