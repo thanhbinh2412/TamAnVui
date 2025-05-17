@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} is running GitHub Actions From Main Branch Flow
 on: 
   push:
     branches:
-      - main
+      - dev
 jobs:
   job-1:
     runs-on: self-hosted
